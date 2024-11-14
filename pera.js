@@ -1,0 +1,4 @@
+let pera = ['Once a little mouse ran into a lions nose while playing in the forest. The lion was asleep then. When he realised, he grabbed the mouse in his paws and was about to kill her, consectetur incidunt enim velit nulla nam tempore cumque aliquam laboriosam explicabo non harum.', 
+    'Children will have a lot of fun reading this bunny rabbit story. It is one of the most popular and amazing animal stories. After reading this story, children will understand the importance of self-reliance',
+    'One day, when the rabbit was roaming in the forest, he heard the sound of wild dogs. The bunny got really scared as he had to save himself.'
+]

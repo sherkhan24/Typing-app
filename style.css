@@ -1,0 +1,92 @@
+*{
+padding : 0;
+margin : 0;
+box-sizing:border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.container h1 {
+text-align: center;
+border-bottom: 3px solid #0000006e;
+padding: 10px;
+}
+
+.typeContent input{
+    margin: 10px 0;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    
+}
+
+
+.typeContent p{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.details{
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: rgb(207, 180, 180);
+    margin-top: 20px;
+    display: flex;
+
+justify-content: space-between;}
+
+
+.details button{
+    width: 70px;
+    border: none;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-size: 1.rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: blue;
+
+}
+
+.correct{
+    background-color: rgba(0, 128, 0, 0.61);
+    color: #fff;
+}
+
+.incorrect{
+    background-color: rgba(255, 0, 0, 0.562);
+    color: #fff;
+}
+
+.blink{
+    position: relative;
+}
+
+.blink::before{
+    position: absolute;
+    content: '';
+    width: 1.5px;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    animation: blinkCursor .7s linear infinite;
+}
+
+@keyframes blinkCursor{
+    50%{
+        opacity: 1;
+    }
+} 
